@@ -1,0 +1,6 @@
+.hide-sidebar{
+    right: -100%;
+}
+.show-sidebar{
+    right: 0px;
+}
