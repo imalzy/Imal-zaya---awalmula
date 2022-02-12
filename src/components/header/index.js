@@ -23,7 +23,7 @@ const Header = () => {
                                     borderBottom: isActive ? '4px solid' : 'none',
                                     borderColor: isActive ? '#22C55E' : 'unset'
                                 })} className='py-4 px-2 font-semibold hover:text-green-500 hover:border-b-4 border-green-500 transition duration-300'>Home</NavLink>
-                                <Link to={'/catalog'} className='py-4 px-2 font-semibold hover:text-green-500 hover:border-b-4 border-green-500 transition duration-300'>Catalog</Link>
+                                {/* <Link to={'/catalog'} className='py-4 px-2 font-semibold hover:text-green-500 hover:border-b-4 border-green-500 transition duration-300'>Catalog</Link> */}
                                 <NavLink to={'/about'} style={({ isActive }) => ({
                                     color: isActive ? '#22C55E' : '#6B7280',
                                     borderBottom: isActive ? '4px solid' : 'none',

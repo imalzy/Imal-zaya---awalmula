@@ -4,7 +4,7 @@ const About = () =>{
 
     return(
         <div>
-            ABout
+            By Imal Zaya
         </div>
     )
 }

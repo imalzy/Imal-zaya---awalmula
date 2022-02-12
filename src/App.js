@@ -12,7 +12,6 @@ const App = () => {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />}></Route>
-                {/* <Route path='/catalog' component={Contact} /> */}
                 <Route path="/about" element={<About />}></Route>
 
             </Routes>
